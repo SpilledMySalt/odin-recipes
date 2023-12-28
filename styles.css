@@ -2,11 +2,25 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    background: rgb(249, 240, 236);
+    margin: 0px;
+}
+
+.home-title,
+.recipe.title {
+    /*Boxes*/
+    background: rgb(88, 105, 214);
+    padding: 20px;
+    margin: 0px;
+}
+
 .home-title {
     color: midnightblue;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 45px;
     font-weight: bold;
+    text-align: center;
 }
 
 .recipe {
@@ -21,12 +35,21 @@
 
 .recipe.subtitle {
     font-size: 28px;
+    margin: 8px;
+    background: rgb(163, 163, 201);
+    padding: 16px;
 }
 
 /*Styles for unordered lists*/
 ul,
 ol {
     color: darkslategrey;
+    padding: 16px;
+    margin: 8px;
+    border: 2px;
+    border-color: rgb(44, 44, 44);
+    background: white;
+    font-size: 24px;
 }
 
 ul.a {
